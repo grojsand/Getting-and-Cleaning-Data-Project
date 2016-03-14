@@ -1,0 +1,20 @@
+#Getting and Cleaning Data Project
+
+##Description
+This file is for providing additional information about the variables, data and transformations used in the course project.
+
+##Attribute Information
+For each record in the dataset it is provided:
+
+Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+Triaxial Angular velocity from the gyroscope.
+A 561-feature vector with time and frequency domain variables.
+Its activity label.
+An identifier of the subject who carried out the experiment.
+
+##Variables
+1. x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+2. data_x, data_y and data_sub merge the datasets for further use.
+3. features contain the corrected column names.
+4. data_all merges data_x, data_y and data_subject in a big dataset.
+5. at last avg_data contains the averages that are stored in avg_data.txt
